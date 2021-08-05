@@ -4,13 +4,41 @@
 @import "{{ site.theme }}";
 
 .button {
-    font: bold 11px Arial;
+    font: bold 14px Arial;
     text-decoration: none;
-    background-color: #EEEEEE;
+    background-color: #a105af;
     color: #333333;
-    padding: 2px 6px 2px 6px;
-    border-top: 1px solid #CCCCCC;
-    border-right: 1px solid #333333;
-    border-bottom: 1px solid #333333;
-    border-left: 1px solid #CCCCCC;
+    padding: 10px 24px;
+    border: 1px solid #000000; /* Green border */
+    float: left;
   }
+
+    // border-top: 1px solid #CCCCCC;
+    // border-right: 1px solid #333333;
+    // border-bottom: 1px solid #333333;
+    // border-left: 1px solid #CCCCCC;
+
+//   .btn-group button {
+//     background-color: #aa3904; /* Green background */
+//     border: 1px solid green; /* Green border */
+//     color: white; /* White text */
+//     padding: 10px 24px; /* Some padding */
+//     cursor: pointer; /* Pointer/hand icon */
+//     float: left; /* Float the buttons side by side */
+//   }
+  
+//   .btn-group button:not(:last-child) {
+//     border-right: none; /* Prevent double borders */
+//   }
+  
+//   /* Clear floats (clearfix hack) */
+//   .btn-group:after {
+//     content: "";
+//     clear: both;
+//     display: table;
+//   }
+  
+//   /* Add a background color on hover */
+//   .btn-group button:hover {
+//     background-color: #3e8e41;
+//   }
