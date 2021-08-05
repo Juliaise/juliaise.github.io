@@ -1,3 +1,4 @@
-# angus-lewis.github.io
+# juliaise.github.io
 
-In construction 
+This is the page for the Julia users group, Adelaide. 
+
