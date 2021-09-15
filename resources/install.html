@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>install</title></head>
+<body><h1>Julia Install Guide</h1>
+<p>This is not really an installation guide. It’s a set of steps and links to helpful information on those steps. </p>
+<h2>Background</h2>
+<p>These days Julia comes as a stand-alone package which has a build-in installation of Python, which is used for some tasks. You can use your own version of Python, but that complicates life, so best to start with the default.</p>
+<p>Julia, by itself, is fully functional, but most people find it easier to interact with it through an IDE (like Rstudio). the one of choice these days is VS Code.</p>
+<p>Finally, to get full utility with Julia, you’ll need to install some extra packages. This is really easy, but it’s helpful to have a list of go-to packages to start with. </p>
+<p>This guide is aimed at MacOS. I often use it on Linux, but the instructions for that are pretty standard, except the default Julia installation is local to a user, not global.</p>
+<h2>Step 1: Install Julia</h2>
+<p>Current recommended version as of writing this is 1.5.3. Version 1.6 is soon, but I don’t recommend that newcomers hit the bleeding edge.</p>
+<p>Download from <a href='https://julialang.org/downloads/' target='_blank' class='url'>https://julialang.org/downloads/</a></p>
+<p>Platform install instructions are at <a href='https://julialang.org/downloads/platform/' target='_blank' class='url'>https://julialang.org/downloads/platform/</a></p>
+<p>On a Mac, you can test it by opening the application (from your
+application folder) or running the Julia command in a shell (command window) by putting it on your path using </p>
+<pre><code>ln -s /Applications/Julia-1.5.app/Contents/Resources/julia/bin/julia/usr/local/bin/julia
+</code></pre>
+<h2>Step 2: Install VS Code</h2>
+<p>VS Code is a separate application that is designed as an Integrated Development Environment (IDE) for almost any programming language. It has specific extensions that customise it to particular languages like Julia. </p>
+<p>Instructions on installation and configuration to use Julia are here:
+    <a href='https://www.julia-vscode.org/docs/dev/gettingstarted/#Installation-and-Configuration-1' target='_blank' class='url'>https://www.julia-vscode.org/docs/dev/gettingstarted/#Installation-and-Configuration-1</a></p>
+<p>I also thought this web page was useful:
+    <a href='https://techytok.com/julia-vscode/' target='_blank' class='url'>https://techytok.com/julia-vscode/</a></p>
+<p>Both of those pages give examples of running Julia in VS Code. Have a go!</p>
+<p>There is more documentation for Julia in VS Code here:
+    <a href='https://www.julia-vscode.org/' target='_blank' class='url'>https://www.julia-vscode.org/</a></p>
+<p>There are also alternative ways to interact with Julia through workbook environments like Jupyter, e.g., see
+    <a href='https://datatofish.com/add-julia-to-jupyter/' target='_blank' class='url'>https://datatofish.com/add-julia-to-jupyter/</a></p>
+<p>Note, however, that I primarily use Julia directly in a command window, so there is no need to use VS Code if you don’t care for it. </p>
+<h2>Step 3: Packages</h2>
+<p>We mainly install packages through Julia itself. You can do this directly, for example:</p>
+<pre><code>using Pkg
+Pkg.status()
+</code></pre>
+<p>However there is a shorthand. Hit the <code>]</code> key, and it will open a package manager mode. </p>
+<pre><code>]
+(@v1.5) pkg&gt; status
+</code></pre>
+<p>To add a package, got to the package manager mode and just type</p>
+<pre><code>add PACKAGENAME
+</code></pre>
+<p>I have a quite long list of packages installed, but I would recommend a smaller list to start. In my view essential packages are</p>
+<ul>
+<li>Cairo (bindings to the Cairo backend for plotting)</li>
+<li>Blink (useful for displaying some information)</li>
+<li>PyCall (to call Python code)</li>
+<li>Plots and PyPlot (the first is the main plotting package, and the second a Matlab/Python-like package)</li>
+<li>ORCA (helpful for saving plots to files)</li>
+<li>DataFrames and DelimitedFiles and CSV (for working with data)</li>
+<li>Statistics and Distributions and StatsBase (guess)</li>
+<li>Printf (a printf library for C lovers)</li>
+<li>PackageCompiler (we’ll use this later)</li>
+<li>Polylogarithms (I just want people to play with my package :)</li>
+
+</ul>
+<p>BTW, Julia packages are hosted on Github, so they are easy to play with directly, and when you install it, the code will all be placed in your local julia directory, so you can easily  inspect it.</p>
+<p>When you install a package Julia will automagically install all dependencies (most of the time). </p>
+<p>The first time you use many packages, e.g, PyCall, it will automagically “build” it. You might need to rebuild in some circumstances, but that is hopefully rare. </p>
+<h2>Step 4: Fun</h2>
+<p>Let’s do a plot. Type in the command window:</p>
+<pre><code class='language-julia' lang='julia'>using Plots
+pyplot() # to select PyPlot style plots
+plot( [1,2,3], [4,5,6] )
+</code></pre>
+<p><a href='https://docs.juliaplots.org/latest/install/' target='_blank' class='url'>https://docs.juliaplots.org/latest/install/</a></p>
+</body>
+</html>

@@ -1,0 +1,23 @@
+# Julia Install Guide
+
+This is not really an installation guide. It's a set of steps and
+links to helpful information on those steps. 
+
+## Background
+
+These days Julia comes as a stand-alone package which has a build-in
+installation of Python, which is used for some tasks. You can use your
+own version of Python, but that complicates life, so best to start
+with the default.
+
+Julia, by iself, is fully functional, but most people find it easier
+to interact with it through an IDE (like Rstudio). the one of choice
+these days is VS Code.
+
+Finally, to get full utility with Julia, you'll need to install some
+extra packages. This is really easy, but it's helpful to have a list of
+go-to packages to start with. 
+
+## Step 1: Install Julia
+
+
