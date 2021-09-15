@@ -1,7 +1,6 @@
 ---
 title: Old Meetings
 date:  2021-09-15
-layout: home
 ---
 
 # Old Meetings

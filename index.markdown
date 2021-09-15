@@ -1,10 +1,9 @@
 ---
 title: JuLiase Home
 date:  2021-09-15
-layout: home
 ---
 
-# Welcome 
+# Welcome
 
 Julia is THE cool new programming language on the block!
 
