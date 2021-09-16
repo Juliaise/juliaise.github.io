@@ -18,14 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "JuLiase" 
+title: "JuLiase"
 email: matthew.roughan@adelaide.edu.au
 description: "Julia users group, Adelaide, South Australia<p> 
               A space for coders of all backgrounds and ability to talk Julia."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://juliaise.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
-# github_username:  jekyll
+github_username:  "JuLiase"
 
 # Build settings
 # theme: jekyll-theme-slate
@@ -33,6 +33,7 @@ remote_theme: pages-themes/slate@v0.2.0
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+markdown: kramdown
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
