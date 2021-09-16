@@ -22,11 +22,13 @@ title: "JuLiase"
 email: matthew.roughan@adelaide.edu.au
 description: "Julia users group, Adelaide, South Australia<p> 
               A space for coders of all backgrounds and ability to talk Julia."
-baseurl: "" # the subpath of your site, e.g. /blog
+# baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://juliaise.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
-github_username:  "JuLiase"
-
+github_username:  "Juliase"
+github:
+  is_project_page: true
+  
 # Build settings
 # theme: jekyll-theme-slate
 remote_theme: pages-themes/slate@v0.2.0

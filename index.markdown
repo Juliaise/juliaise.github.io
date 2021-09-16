@@ -12,7 +12,7 @@ It’s fast, dynamic, and easy to use. It’s ideal for data science, and a rang
 
 This group was created by Angus Lewis and Matt Roughan to support the local Julia programming community in South Australia. If anyone else wants to help organise, they would be welcome.
 
-We have fortnightly meetups (Fridays at 11am, at the University of Adelaide) starting on the 19th of Feb, 2021. See the schedule below for exact locations.
+We have fortnightly meetups (Fridays at 11.10-12.00, at the University of Adelaide) starting on the 19th of Feb, 2021. See the schedule below for exact locations.
 
 If you want to be involved contact Matt Roughan by email and I’ll add you to the Slack channel to join the discussion and find out what’s going on.
 
