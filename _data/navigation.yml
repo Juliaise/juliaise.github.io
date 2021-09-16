@@ -1,0 +1,9 @@
+# Belongs at: /_data/navigation.yml
+
+- title: Home
+  url: /
+- title: Old Meetups
+  url: /old.html
+- title: Resources
+  url: /resources.html
+
