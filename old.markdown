@@ -3,8 +3,6 @@ title: Old Meetings
 date:  2021-09-15
 ---
 
-# Old Meetings
-
 Past Meetings for 2021 
 
 | Date          | Topic                                        | Speaker                         | Resources                                                    |
