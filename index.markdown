@@ -30,15 +30,15 @@ Location: Level 5 of the Inkarni Wardli building, @the North Terrace Campus of t
 
 Upcoming Meetings for 2021
 
-| Date           | Room | Topic                        | Speaker      |
-| -------------- | ---- | ---------------------------- | ------------ |
-| September 17th | 5.57 | The Package Compiler package | Matt Roughan |
-| October 1st    | 5.57 |                              |              |
-| October 15th   | 5.57 |                              |              |
-| October 29th   | 5.57 |                              |              |
-| November 12th  | 5.58 |                              |              |
-| November 26th  | 5.57 |                              |              |
-| December 10th  | 5.58 |                              |              |
+| Date           | Room | Topic                        | Speaker        |
+| -------------- | ---- | ---------------------------- | -------------- |
+| September 17th | 5.57 | The Package Compiler package | Matt Roughan   |
+| October 1st    | 5.57 | JuMP.jl (optimisation)       | Andrew         |
+| October 15th   | 5.57 |                              |                |
+| October 29th   | 5.57 |                              |                |
+| November 12th  | 5.58 |                              |                |
+| November 26th  | 5.57 |                              |                |
+| December 10th  | 5.58 |                              |                |
 
 ##### A list of past meetings can be found [here](old.html)
 
