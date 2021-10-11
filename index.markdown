@@ -3,7 +3,7 @@ title: JuLiase Home
 date:  2021-09-15 
 layout: default
 ---
- 
+
 # Welcome
 
 Julia is THE cool new programming language on the block!
@@ -30,15 +30,13 @@ Location: Level 5 of the Inkarni Wardli building, @the North Terrace Campus of t
 
 Upcoming Meetings for 2021
 
-| Date           | Room | Topic                        | Speaker        |
-| -------------- | ---- | ---------------------------- | -------------- |
-| September 17th | 5.57 | The Package Compiler package | Matt Roughan   |
-| October 1st    | 5.57 | JuMP.jl (optimisation)       | Andrew         |
-| October 15th   | 5.57 |                              |                |
-| October 29th   | 5.57 |                              |                |
-| November 12th  | 5.58 |                              |                |
-| November 26th  | 5.57 |                              |                |
-| December 10th  | 5.58 |                              |                |
+| Date          | Room | Topic           | Speaker     |
+| ------------- | ---- | --------------- | ----------- |
+| October 15th  | 5.57 | Macros          | Angus Lewis |
+| October 29th  | 5.57 | Metaprogramming | Angus Lewis |
+| November 12th | 5.58 |                 |             |
+| November 26th | 5.57 |                 |             |
+| December 10th | 5.58 |                 |             |
 
 ##### A list of past meetings can be found [here](old.html)
 
@@ -51,4 +49,9 @@ The members of this group are diverse by nature and inclusive by choice. Our div
 [https://julialang.org/community/standards/](https://julialang.org/community/standards/)
 
 [https://julialang.org/diversity/](https://julialang.org/diversity/)
+
+
+##### Style
+
+We are aiming at the [BlueStyle](https://github.com/invenia/BlueStyle) for Julia code.
 
