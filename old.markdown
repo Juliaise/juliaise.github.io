@@ -23,4 +23,6 @@ Past Meetings for 2021
 | September 3rd  | Functions in Julia                           | James Cormack                   | [slides](resources/Functions-JuliaUG.pptx) and [worksheet](resources/Julia-Functions-Workbook.ipynb) |
 | September 17th | The Package Compiler package                 | Matt Roughan                    | [pdf](resources/PackageCompiler.pdf)                         |
 | October 1st    | JuMP.jl (optimisation)                       | Andrew Feutrill                 | [JuMP Tute](https://github.com/afeutrill/JuMPTutorial)       |
+| October 15th   | Metaprogramming                              | Angus Lewis                     | [JuMP Tute](https://github.com/angus-lewis/Julia_Meta_Talk/blob/master/meta.ipynb)       |
+| October 29th   | Macros                                       | Angus Lewis                     | [Macros](https://github.com/angus-lewis/Julia_Meta_Talk/blob/master/macros.ipynb)       |
 

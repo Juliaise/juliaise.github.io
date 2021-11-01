@@ -32,8 +32,6 @@ Upcoming Meetings for 2021
 
 | Date          | Room | Topic           | Speaker     |
 | ------------- | ---- | --------------- | ----------- |
-| October 15th  | 5.57 | Macros          | Angus Lewis |
-| October 29th  | 5.57 | Metaprogramming | Angus Lewis |
 | November 12th | 5.58 |                 |             |
 | November 26th | 5.57 |                 |             |
 | December 10th | 5.58 |                 |             |
